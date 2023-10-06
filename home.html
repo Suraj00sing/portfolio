@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>suraj- porfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,300;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav id="socialmedia">
+            <div id="topleft">Connect with me</div>
+            <div id="topright">
+                <ul>
+                    <li><a href="#" class="fa fa-facebook"></a></li>
+                    <li><a href="#" class="fa fa-instagram"></a></li>
+                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="#" class="fa fa-twitter"></a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <nav>
+            <div class="left">Porfolio</div>
+            <div class="right">
+                <ul>
+                    <li><span class="fa fa-user-o"></span> About</li>
+                    <li><span class="fa fa-gears"></span>  Services</li>
+                    <li style="color: rgb(26, 216, 9);"><span class="fa fa-file-powerpoint-o"></span> Project</li>
+                    <li><span class="fa fa-envelope-o"></span> Contact</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="first">
+            <div class="secLeft">Hii I am <span class="highlight">Suraj Singh</span><br>A <span id="element" class="highlight"></span> <br>
+                <p>Have Experience on Projects</p><br>
+                <div>Skills : <span id="element2"></span></div>
+            </div>
+            <div class="secRight">
+                <img src="bg.png">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-header">
+            <div class="footer-left">Hire me! I will <br>Surely be Beneficial to the Org. </div>
+            <div class="footer-right"><button type="text" id="Project">Check Projects</button></div>
+        </div>
+
+        <hr>
+
+        <div class="footer-body">
+            <div class="footer-logo">@ Suraj Singh</div>
+            <div class="footer-first">
+                <ul>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Project</li>
+                    <li>Career</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+
+        </div>
+            
+            
+            <div class="footer-end">
+                <div>I didn't choose Programming Programming chose me <span class="fa fa-smile-o"></span></div>
+                <div id="thanks">Shukriya  <span class="fa fa-heart"></span></div>
+            </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Java Programmer'],
+          typeSpeed: 40,
+        });
+        var typed = new Typed('#element2', {
+          strings: ['Core Java','Servlet','JSP','Collection Framework','SQL','HTML','CSS','Javascript','JDBC'],
+          typeSpeed: 70,
+        });
+      </script>
+</body>
+</html>
