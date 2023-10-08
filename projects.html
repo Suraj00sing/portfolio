@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>suraj- porfolio</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -38,17 +39,38 @@
         </nav>
     </header>
 
-    <main>
-        <section class="first">
-            <div class="secLeft">Hii I am <span class="highlight">Suraj Singh</span><br>A <span id="element" class="highlight"></span> <br>
-                <p>Have Experience on Projects</p><br>
-                <div>Skills : <span id="element2"></span></div>
-            </div>
-            <div class="secRight">
-                <img src="bg.png">
-            </div>
-        </section>
+
+    <main class="main">
+        <div class="body-header">
+            <div>Have Experience on Hands-on Projects</div></div>   
+        </div>
+        <hr class="abouthr">
+        <div class="proj-body">
+          <div class="proj-left">
+                <div class="content">
+                        <h5 id="title">1. TECHrAT</h5>
+                        <p>Techrat is a Technology based Bloggin website which includes several functionalities i.e we can read , post Blogs etc. Technologies that were used to build this project includes Core Java, Servlet , JSP , Collection framework , JDBC , HTML , CSS , Javascript
+                        . functionalities present in this project are signin , singnup page . so, if the user signup All the details gets stored in the existing database and for checking whether the user Entered correct Credentials the singup details of that user were compared with the Entered credentials.
+                        if Everything is perfect -> logged in else show an error message "Invalid Email or Password".
+                        </p>
+                        <h5>Technologies : <span class="goldencolor">Java, Servlet , JSP , Collection framework , JDBC , HTML , CSS , Javascript.</span></h5>
+                        <br>
+                        <h5>functionalities : <br><span class="goldencolor">1. signin & signup module connnected with DB.<br>2. After login Show Profile, Edit Profile .<br>
+                            3. Update Profile, Delete Profile linked to DB. </span>
+                        </h5>
+                    </div>     
+                </div>
+                
+                <div class="proj-right">
+                    <img class="card-img" src="project.png" >
+                </div>
+                
+              </div>
+        </div>
+       
     </main>
+
+
     <footer>
         <div class="footer-header">
             <div class="footer-left">Hire me! I will <br>Surely be Beneficial to the Org. </div>
@@ -83,14 +105,17 @@
     </footer>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
-        var typed = new Typed('#element', {
-          strings: ['Java Programmer'],
-          typeSpeed: 40,
-        });
-        var typed = new Typed('#element2', {
-          strings: ['Core Java','Servlet','JSP','Collection Framework','SQL','HTML','CSS','Javascript','JDBC'],
+    
+        var typed = new Typed('#element3', {
+          strings: ['Core Java , Servlet , JSP , Collection Framework , SQL , HTML , CSS , JavaScript , JDBC '],
           typeSpeed: 70,
         });
       </script>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
